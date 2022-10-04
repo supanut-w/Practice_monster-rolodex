@@ -14,7 +14,7 @@ const Card = ({ monster }) => {
             <h2>{name}</h2>
             <p>{email}</p>
         </div>
-    )
+    );
 }
 
 export default Card;

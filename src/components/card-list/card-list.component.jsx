@@ -8,7 +8,7 @@ const  CardList = ({ monsters}) => (
         {monsters.map(monster => {
             return (
                 <Card monster={monster} />
-            ) 
+            );
         })}
     </div>
 );
